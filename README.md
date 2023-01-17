@@ -21,4 +21,11 @@ flutter drive \
 
 ### Want to know what is integration testing ?
 
+
+```dart
+flutter drive \                                        
+  --driver=test_driver/integration_test.dart \
+  --target=integration_test/authentication_test.dart --flavor prod -t lib/main.dart
+```
+
 [Click here](https://martinfowler.com/bliki/IntegrationTest.html)
